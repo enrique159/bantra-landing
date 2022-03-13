@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/background.svg" class="background" alt="">
+    <img src="./assets/background-alt.svg" class="background" alt="">
     <div class="container px-4">
       <nav class="d-flex justify-content-between py-5">
         <img class="logo" alt="Vue logo" src="./assets/bantra.svg" />
@@ -27,8 +27,8 @@
     <div class="boxes">
       <div class="first-line-boxes">
         <div class="box">
-          <h3>584</h3>
-          <span>Value Indexes</span>
+          <h3>123'456</h3>
+          <span>Lines of code written</span>
         </div>
       </div>
       <div class="second-line-boxes">
