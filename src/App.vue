@@ -223,7 +223,7 @@ body {
     display: none;
     width: 100%;
     height: 20%;
-    margin-top: 24px;
+    margin-top: 12px;
     background: transparent;
     div {
       width: 25%;
@@ -278,6 +278,15 @@ body {
 @media only screen and (max-width: 890px){
   #app {
     overflow-y: auto;
+    .background {
+      position: absolute;
+      top: 28%;
+      left: -50%;
+      right: 0;
+      width: 300%;
+      z-index: -1;
+      opacity: 1;
+    }
     .nav-options {
       display: none;
     }
