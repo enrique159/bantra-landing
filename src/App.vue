@@ -108,7 +108,7 @@ body {
   width: 100%;
   height: 100vh;
   color: white;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden; 
 
   .background {
@@ -277,6 +277,7 @@ body {
 }
 @media only screen and (max-width: 890px){
   #app {
+    overflow-y: auto;
     .nav-options {
       display: none;
     }
